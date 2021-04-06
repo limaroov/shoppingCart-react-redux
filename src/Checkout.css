@@ -1,0 +1,16 @@
+.checkout {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+}
+.checkout__left {
+  flex: 1;
+}
+
+.checkout__right {
+  position: sticky;
+  top: 100px;
+  right: 0;
+}

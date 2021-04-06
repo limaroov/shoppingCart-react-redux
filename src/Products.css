@@ -1,0 +1,11 @@
+.products {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.products__products {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

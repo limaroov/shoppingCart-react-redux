@@ -1,0 +1,28 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.banner {
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #333;
+}
+
+.banner__info {
+  padding: 0 50px;
+}
+.banner__infoTitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 50px;
+}
+.banner__infoParagraph {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+.banner__logo {
+  max-width: 50%;
+}

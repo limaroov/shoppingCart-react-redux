@@ -1,0 +1,78 @@
+.checkoutproduct {
+  max-width: 90%;
+  min-height: 300px;
+  background-color: rgb(231, 230, 230);
+  margin: 30px;
+  display: flex;
+  border-radius: 6px;
+  border: 1px solid rgb(195, 195, 195);
+}
+
+.checkoutproduct__image {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  max-height: 300px;
+  min-width: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.checkoutproduct__image img {
+  max-width: 200px;
+  object-fit: contain;
+}
+
+.checkoutproduct__info {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.checkoutproduct__title {
+  color: #333;
+  font-size: 20px;
+}
+
+.checkoutproduct__category {
+  background-color: rgb(206, 206, 206);
+  padding: 6px;
+  border-radius: 6px;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.checkoutproduct__description {
+  color: #333;
+  font-weight: 300;
+  min-height: 150px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+
+.checkoutproduct__count {
+  border: 1px solid;
+  font-size: 18px;
+  padding: 8px;
+  outline: none;
+  width: 80px;
+  border-radius: 4px;
+}
+
+.checkoutproduct__add {
+  display: flex;
+  justify-content: flex-end;
+}
+.checkoutproduct__removeBtn {
+  background-color: rgb(238, 27, 20) !important;
+  color: white !important;
+  font-weight: bold;
+  margin: 0 20px !important;
+}

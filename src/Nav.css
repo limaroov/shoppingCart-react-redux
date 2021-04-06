@@ -1,0 +1,99 @@
+.nav {
+  width: 100%;
+  min-height: 60px;
+  background-color: transparent;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.nav__logoTitle {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px 0;
+}
+
+.nav__header {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.nav__logo {
+  color: white !important;
+  font-size: 40px !important;
+}
+
+.nav__title {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav__basketInfo {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav__basketInfo p {
+  color: white;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 4px;
+  font-size: 20px;
+}
+.nav__basket {
+  color: white !important;
+  font-size: 40px !important;
+}
+.nav__searchCategories {
+  display: flex;
+  align-items: center;
+  transition: all 0.3 ease-in;
+}
+
+.nav_categories {
+  margin-right: 30px;
+  padding: 8px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.nav__search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.nav__search input {
+  flex: 1;
+  font-size: 17px;
+  padding: 10px;
+  background: none;
+  outline: none;
+  border: none;
+}
+.nav__searchIcon {
+  background-color: rgba(84, 84, 253, 0.904);
+  font-size: 40px !important;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white !important;
+  cursor: pointer;
+}
+
+.nav__category {
+  cursor: pointer;
+}
